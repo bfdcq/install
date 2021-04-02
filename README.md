@@ -11,7 +11,7 @@ yum install gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto
 wget https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tar.xz
 xz -d Python-3.9.2.tar.xz
 tar xfv Python-3.9.2.tar
-cd Python-3.9.2 && /configure --prefix=/root/bin/python392 
+cd Python-3.9.2 && ./configure --prefix=/root/bin/python392 
 make && make install
 rm -rf Python-3.9.2 Python-3.9.2.tar
 /root/bin/python392/bin/python3 -m venv /root/bin/env392
