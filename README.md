@@ -5,7 +5,7 @@ yum install epel-release -y
 yum update -y
 yum groupinstall development tools -y
 yum install net-tools vim lrzsz httpd-tools screen wget -y 
-yum install -y ncurses-libs zlib-devel mysql-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel
+yum install -y ncurses-libs zlib-devel mysql-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel libcurl-devel libffi-devel
 yum install gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto c-ares-devel libev-devel libsodium-devel mbedtls-devel -y
 
 wget https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tar.xz
