@@ -34,7 +34,7 @@ CREATE database accelerator owner = "youth" template = "template0" encoding = 'U
 
 ```
 
-
+```
 
 git clone https://github.com/shadowsocks/shadowsocks-libev.git
 git submodule update --init --recursive
@@ -42,3 +42,4 @@ sh autogen.sh
 ./configure --disable-documentation
 make
 make install
+```
