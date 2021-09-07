@@ -29,8 +29,7 @@ systemctl enable postgresql-12
 cd /var/lib/pgsql/12/data/
 ALTER USER postgres WITH PASSWORD '1234';
 CREATE USER dbuser WITH PASSWORD '*****';
-CREATE database accelerator owner = "youth" template = "template0" encoding = 'UTF8' lc_collate =
-'zh_CN.utf8' lc_ctype = 'zh_CN.utf8' TABLESPACE = "pg_default"
+CREATE database accelerator owner = "youth" template = "template0" encoding = 'UTF8' lc_collate = 'zh_CN.utf8' lc_ctype = 'zh_CN.utf8' TABLESPACE = "pg_default"
 
 ```
 
