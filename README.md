@@ -34,8 +34,10 @@ CREATE database accelerator owner = "youth" template = "template0" encoding = 'U
 ```
 
 ```
-
-git clone https://github.com/shadowsocks/shadowsocks-libev.git
+cd /root/tmp/ && screen -dmSL xray /root/tmp/xray run -c /root/tmp/config_4.json && cd ..
+git config --global credential.helper store
+git config --global http.proxy  127.0.0.1:1084
+git clone https://github.com/shadowsocks/shadowsocks-libev.git && cd shadowsocks-libev
 git submodule update --init --recursive
 sh autogen.sh
 ./configure --disable-documentation
