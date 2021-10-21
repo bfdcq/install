@@ -56,3 +56,8 @@ ALTER TABLE table_name ALTER COLUMN column_name TYPE datatype;
 
 
 ```
+
+```
+ssh-keygen 
+cat id_rsa.pub >> authorized_keys
+```
